@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123" height="123.773" viewBox="0 0 123 123.773">
+  <g id="loading_processing" data-name="loading processing" transform="translate(0.221)">
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="10.5" cy="11" rx="10.5" ry="11" transform="translate(-0.221 50.887)" fill="#3cb878"/>
+    <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="10.5" cy="11" rx="10.5" ry="11" transform="translate(101.779 50.887)" fill="#464646"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="10.517" cy="10.517" r="10.517" transform="translate(13.163 21.836) rotate(30)" fill="#3cb878"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="10.517" cy="10.517" r="10.517" transform="translate(102.138 73.205) rotate(30)" fill="#464646"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="10.517" cy="10.517" r="10.517" transform="translate(39.664 3.032) rotate(60)" fill="#3cb878"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="10.517" cy="10.517" r="10.517" transform="translate(91.034 92.008) rotate(60)" fill="#464646"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="10.517" cy="10.517" r="10.517" transform="translate(72.017) rotate(90)" fill="#3cb878"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="10.517" cy="10.517" r="10.517" transform="translate(72.017 102.739) rotate(90)" fill="#464646"/>
+  </g>
+</svg>
