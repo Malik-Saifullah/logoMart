@@ -801,7 +801,8 @@ select {
 #shop .container .col-md-8 .shop-hero-section .sub-container {
   max-width: 400px;
 }
-#shop .container .col-md-8 .shop-hero-section .sub-container h1, #shop .container .col-md-8 .shop-hero-section .sub-container p {
+#shop .container .col-md-8 .shop-hero-section .sub-container h1,
+#shop .container .col-md-8 .shop-hero-section .sub-container p {
   color: #fff;
   text-transform: uppercase;
 }
@@ -925,13 +926,15 @@ select {
     height: 150px;
   }
 }
-#cart .container .tab-content .card .col-md-10 .card-body .card-title, #cart .container .tab-content .card .col-md-10 .card-body .card-text {
+#cart .container .tab-content .card .col-md-10 .card-body .card-title,
+#cart .container .tab-content .card .col-md-10 .card-body .card-text {
   font-size: 16px;
   line-height: 1.3;
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  #cart .container .tab-content .card .col-md-10 .card-body .card-title, #cart .container .tab-content .card .col-md-10 .card-body .card-text {
+  #cart .container .tab-content .card .col-md-10 .card-body .card-title,
+  #cart .container .tab-content .card .col-md-10 .card-body .card-text {
     font-size: 12px;
   }
 }
@@ -1057,7 +1060,9 @@ select {
     margin-left: auto;
   }
 }
-#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .artical, #payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .service-charges, #payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .total-charges {
+#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .artical,
+#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .service-charges,
+#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .total-charges {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1068,7 +1073,9 @@ select {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .artical p, #payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .service-charges p, #payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .total-charges p {
+#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .artical p,
+#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .service-charges p,
+#payment-gateway .payment-gateway-option-box .container .sidebar .row .col-sm-12 .total-charges p {
   font-size: 16px;
   line-height: 1.3;
   font-weight: 500;
@@ -1175,54 +1182,64 @@ select {
   font-size: 12px;
   border: none;
 }
-#account .container .align-items-start .tab-content #my-account #in-process .row.g-0, #account .container .align-items-start .tab-content #my-account #completed .row.g-0 {
+#account .container .align-items-start .tab-content #my-account #in-process .row.g-0,
+#account .container .align-items-start .tab-content #my-account #completed .row.g-0 {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
-#account .container .align-items-start .tab-content #my-account #in-process .row.g-0 img, #account .container .align-items-start .tab-content #my-account #completed .row.g-0 img {
+#account .container .align-items-start .tab-content #my-account #in-process .row.g-0 img,
+#account .container .align-items-start .tab-content #my-account #completed .row.g-0 img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media screen and (min-width: 768px) {
-  #account .container .align-items-start .tab-content #my-account #in-process .row.g-0 img, #account .container .align-items-start .tab-content #my-account #completed .row.g-0 img {
+  #account .container .align-items-start .tab-content #my-account #in-process .row.g-0 img,
+  #account .container .align-items-start .tab-content #my-account #completed .row.g-0 img {
     width: 150px;
     min-width: 150px;
     height: 150px;
   }
 }
-#account .container .align-items-start .tab-content #my-account #in-process .row.g-0 p, #account .container .align-items-start .tab-content #my-account #completed .row.g-0 p {
+#account .container .align-items-start .tab-content #my-account #in-process .row.g-0 p,
+#account .container .align-items-start .tab-content #my-account #completed .row.g-0 p {
   font-size: 12px;
   line-height: 1.3;
   font-weight: 500;
 }
-#account .container .align-items-start .tab-content #my-account #in-process .row.g-0 p.product-price, #account .container .align-items-start .tab-content #my-account #completed .row.g-0 p.product-price {
+#account .container .align-items-start .tab-content #my-account #in-process .row.g-0 p.product-price,
+#account .container .align-items-start .tab-content #my-account #completed .row.g-0 p.product-price {
   font-size: 16px;
   color: #349764;
   margin-top: 20px;
 }
-#account .container .align-items-start .tab-content #manage-address .explore-more-btn, #account .container .align-items-start .tab-content #payment-method .explore-more-btn {
+#account .container .align-items-start .tab-content #manage-address .explore-more-btn,
+#account .container .align-items-start .tab-content #payment-method .explore-more-btn {
   margin-bottom: 50px;
   margin-left: 89%;
   float: right;
 }
-#account .container .align-items-start .tab-content #manage-address .row, #account .container .align-items-start .tab-content #payment-method .row {
+#account .container .align-items-start .tab-content #manage-address .row,
+#account .container .align-items-start .tab-content #payment-method .row {
   background-color: #F5F6F9;
   padding: 40px 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#account .container .align-items-start .tab-content #manage-address .row .col-md-6 p, #account .container .align-items-start .tab-content #payment-method .row .col-md-6 p {
+#account .container .align-items-start .tab-content #manage-address .row .col-md-6 p,
+#account .container .align-items-start .tab-content #payment-method .row .col-md-6 p {
   font-size: 12px;
   line-height: 1.3;
   font-weight: 500;
 }
-#account .container .align-items-start .tab-content #manage-address .row .col-md-6 .card-exp-date, #account .container .align-items-start .tab-content #payment-method .row .col-md-6 .card-exp-date {
+#account .container .align-items-start .tab-content #manage-address .row .col-md-6 .card-exp-date,
+#account .container .align-items-start .tab-content #payment-method .row .col-md-6 .card-exp-date {
   margin-left: 20px;
 }
-#account .container .align-items-start .tab-content #manage-address .row .col-md-6 .btn, #account .container .align-items-start .tab-content #payment-method .row .col-md-6 .btn {
+#account .container .align-items-start .tab-content #manage-address .row .col-md-6 .btn,
+#account .container .align-items-start .tab-content #payment-method .row .col-md-6 .btn {
   display: block;
   margin-left: auto;
 }
@@ -1238,7 +1255,8 @@ select {
       -ms-flex-align: center;
           align-items: center;
 }
-#account .container .align-items-start .tab-content #order-tracking .nav-btn-container .shipping-status .title, #account .container .align-items-start .tab-content #order-tracking .nav-btn-container .shipping-status .status {
+#account .container .align-items-start .tab-content #order-tracking .nav-btn-container .shipping-status .title,
+#account .container .align-items-start .tab-content #order-tracking .nav-btn-container .shipping-status .status {
   font-size: 16px;
   line-height: 1.3;
   font-weight: 500;
@@ -1262,7 +1280,8 @@ select {
   margin-top: 10px;
   margin-bottom: 25px !important;
 }
-#account .container .align-items-start .tab-content #account-settings .row .col-md-7 .row label, #account .container .align-items-start .tab-content #account-settings .row .col-md-7 .row input {
+#account .container .align-items-start .tab-content #account-settings .row .col-md-7 .row label,
+#account .container .align-items-start .tab-content #account-settings .row .col-md-7 .row input {
   font-size: 16px;
   line-height: 1.3;
   font-weight: 500;
@@ -1462,6 +1481,182 @@ select {
   font-size: 12px;
   padding: 10px 20px;
   margin-left: 5px;
+}
+
+/*=======================================================
+                    sign-up/sign-in
+=======================================================*/
+#account-login {
+  background: url("../images/icon/watermark.png");
+  background-repeat: no-repeat;
+  background-position: 6% bottom;
+}
+#account-login .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#account-login .container a {
+  text-decoration: none;
+  color: #349764;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+#account-login .container a:hover {
+  color: #2d8457;
+}
+#account-login .container .form {
+  background: #000;
+  padding: 40px;
+  max-width: 500px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+          box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  margin-left: auto;
+}
+#account-login .container .form .tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+#account-login .container .form .tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#account-login .container .form .tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 16px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+#account-login .container .form .tab-group li a:hover {
+  background: #2d8457;
+  color: #fff;
+}
+#account-login .container .form .tab-group .active a {
+  background: #349764;
+  color: #fff;
+}
+#account-login .container .form h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 40px;
+  font-size: 24px;
+}
+#account-login .container .form label {
+  position: absolute;
+  transform: translateY(8px);
+  -webkit-transform: translateY(8px);
+  -moz-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  -o-transform: translateY(8px);
+  left: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+  font-size: 16px;
+}
+#account-login .container .form label .req {
+  margin: 2px;
+  color: #349764;
+}
+#account-login .container .form label.active {
+  transform: translateY(41px);
+  -webkit-transform: translateY(41px);
+  -moz-transform: translateY(41px);
+  -ms-transform: translateY(41px);
+  -o-transform: translateY(41px);
+  left: 2px;
+  font-size: 12px;
+}
+#account-login .container .form label.active .req {
+  opacity: 0;
+}
+#account-login .container .form label.highlight {
+  color: #fff;
+}
+#account-login .container .form input,
+#account-login .container .form textarea {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, -webkit-box-shadow .25s ease;
+  transition: border-color .25s ease, -webkit-box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease, -webkit-box-shadow .25s ease;
+}
+#account-login .container .form input:focus,
+#account-login .container .form textarea:focus {
+  outline: 0;
+  border-color: #349764;
+}
+#account-login .container .form textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+#account-login .container .form .field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+#account-login .container .form .top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#account-login .container .form .top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+#account-login .container .form .top-row > div:last-child {
+  margin: 0;
+}
+#account-login .container .form .button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #349764;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+  text-align: center;
+}
+#account-login .container .form .button:hover, #account-login .container .form .button:focus {
+  background: #2d8457;
+}
+#account-login .container .form .button-block {
+  display: block;
+  width: 100%;
+}
+#account-login .container .form .forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+#account-login .container .tab-content > div:last-child {
+  display: none;
 }
 
 /*=======================================================
