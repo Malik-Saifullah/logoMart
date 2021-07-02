@@ -1705,6 +1705,8 @@ select {
     background: url("../images/icon/watermark.png");
     background-repeat: no-repeat;
     background-position: 6% bottom;
+    min-height: 100vh;
+    height: 100%;
     .container {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -1880,6 +1882,47 @@ select {
             .forgot {
                 margin-top: -20px;
                 text-align: right;
+            }
+
+            .divider{
+                text-align: center;
+                color: white;
+                margin: 34px auto;
+                position: relative;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    background: white;
+                    width: 46%;
+                    height: 1px;
+                    left: 0;
+                    top: 12px;
+                }
+                &::after{
+                    position: absolute;
+                    content: "";
+                    background: white;
+                    width: 46%;
+                    height: 1px;
+                    right: 0;
+                    top: 12px;
+                }
+            }
+
+            .social-login-box{
+                .social-icon{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .icon-item{
+                        cursor: pointer;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        img{
+                            width: 40px;
+                        }
+                    }
+                }
             }
         }
 
