@@ -86,6 +86,7 @@ a {
     }
 
     .card-img-overlay {
+        bottom: 120px;
         ul {
             display: flex;
             flex-direction: column;
@@ -982,6 +983,39 @@ select {
                         .page-link.active {
                             color: $colorWhite;
                             background: $colorBlack;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*=======================================================
+                        favourites
+=======================================================*/
+#favourites{
+    .container{
+        .tab-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            column-gap: 15px;
+            .card{
+                .card-body{
+                    .btn-delete{
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        padding: 0;
+                        margin-top: 10px;
+                        background: transparent;
+                        cursor: pointer;
+                        &:hover{
+                            filter: invert(27%) sepia(93%) saturate(4336%) hue-rotate(350deg) brightness(93%) contrast(139%);
+                        }
+                        img{
+                            margin-right: 5px;
                         }
                     }
                 }

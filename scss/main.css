@@ -78,6 +78,9 @@ a {
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
+.card .card-img-overlay {
+  bottom: 120px;
+}
 .card .card-img-overlay ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -899,6 +902,36 @@ select {
 #shop .container .col-md-8 nav .pagination .page-item .page-link.active {
   color: #fff;
   background: #000;
+}
+
+/*=======================================================
+                        favourites
+=======================================================*/
+#favourites .container .tab-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+#favourites .container .tab-content .card .card-body .btn-delete {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin-top: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+#favourites .container .tab-content .card .card-body .btn-delete:hover {
+  -webkit-filter: invert(27%) sepia(93%) saturate(4336%) hue-rotate(350deg) brightness(93%) contrast(139%);
+          filter: invert(27%) sepia(93%) saturate(4336%) hue-rotate(350deg) brightness(93%) contrast(139%);
+}
+#favourites .container .tab-content .card .card-body .btn-delete img {
+  margin-right: 5px;
 }
 
 /*=======================================================
